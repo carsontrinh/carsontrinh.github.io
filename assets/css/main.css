@@ -626,8 +626,8 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			/*background-image: url("../../images/overlay.png");*/
+			/*background-color: rgba(19, 21, 25, 0.5);*/
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1636,3 +1636,29 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Custom */
+	.ul-col-2 {
+	    -webkit-columns: 2;
+	    -moz-columns: 2;
+	    columns: 2;
+	    list-style-position: inside;
+	}
+	.ol-col-2 {
+	    -webkit-columns: 2;
+	    -moz-columns: 2;
+	    columns: 2;
+	    list-style-position: inside;
+	}
+	.ul-col-3 {
+	    -webkit-columns: 3;
+	    -moz-columns: 3;
+	    columns: 3;
+	    list-style-position: inside;
+	}
+	.ol-col-3 {
+	    -webkit-columns: 3;
+	    -moz-columns: 3;
+	    columns: 3;
+	    list-style-position: inside;
+	}
